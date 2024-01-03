@@ -1,28 +1,11 @@
 @model List<Course>
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-        rel="stylesheet"
-        href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-      />
-      <title>Document</title>
-    </head>
-    <body>
-      <div class="container">
+
         <h1>Kurslar Listesi</h1>
-      </div>
 
-      @foreach(var item in Model){
-      <div id="kurs_@item.Id">
-        <h1>@item.Title</h1>
-        <p>@item.Description</p>
-        <img src="~/img/@item.Image" width="200" alt="" />
-      </div>
+        @foreach(var item in Model){
+        
+          @await Html.PartialAsync("_Course", item)
 
-      }
-    </body>
-  </html>
-</Course>
+        }
+      </div>
+  

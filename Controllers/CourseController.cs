@@ -19,6 +19,7 @@ namespace mvcbasics.Controllers
             kurs.Id = 1;
             kurs.Title = "AspNet Core 7.0";
             kurs.Description = "Keyifli sardı.";
+            kurs.Image = "1.jpg";
             return View(kurs);
         }
 
