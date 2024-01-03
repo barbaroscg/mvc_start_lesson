@@ -7,11 +7,13 @@
           rel="stylesheet"
           href="~/lib/bootstrap/dist/css/bootstrap.min.css"
         />
+        @RenderSection("Styles", false)
         <title>Document</title>
       </head>
       <body>
         <header>
          @await Html.PartialAsync("_Navbar")
+         @RenderSection("Header", false)
         </header>
         <div class="container pb-3">
             <main>
@@ -19,6 +21,8 @@
             </main>
 
         </div>
+
+        @RenderSection("Scripts", false)
       </body>
     </html>
   
