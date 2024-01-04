@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\mvcbasics.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
       "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -23,32 +23,21 @@ namespace mvcbasics.Controllers
             return View(kurs);
         }
 
+        public IActionResult Details(int id)
+        {
+            if(id == null || id==0){
+                return Redirect("/home/index");
+                //return RedirectToAction("List");
+                
+            }
+            var kurs = Repository.GetCourseById(id);
+            return View(kurs);
+        }
+
          public IActionResult List()
         {
-            var kurslar = new List<Course>(){
-                new Course()
-                {
-                        Id = 1,
-                        Title = "AspNet Core",
-                        Description = "Güzel, keyifli bir kurs",
-                        Image = "1.jpg"
-                },
-                new Course()
-                {
-                        Id = 2,
-                        Title = "ReactJs",
-                        Description = "Seri, hızlı bir kurs",
-                        Image = "2.jpg"
-                },
-                new Course()
-                {
-                        Id = 3,
-                        Title = "Redux Toolkit",
-                        Description = "Güzel, keyifli bir kurs",
-                        Image = "3.jpg"
-                },
-            };
-            return View("CourseList", kurslar);
+           
+            return View("CourseList", Repository.Courses);
         }
 
        

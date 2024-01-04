@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W8/3cOB2lRbDdHSDodJpdAqc5st75xXKTeW4e12/tck=",
+  "Hash": "2uyxGWA2bpac6NBhgWdD/eyUb88tFx/MW9ZLruE0ji4=",
   "Source": "mvcbasics",
   "BasePath": "_content/mvcbasics",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\mvcbasics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\wwwroot\\css\\contact.css",
+      "SourceId": "mvcbasics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\wwwroot\\",
+      "BasePath": "_content/mvcbasics",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\mvcbasics\\wwwroot\\css\\site.css",
